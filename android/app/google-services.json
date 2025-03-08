@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "495018971089",
+    "project_id": "dakauf-spec-generator",
+    "storage_bucket": "dakauf-spec-generator.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:495018971089:android:5664eca6caf5ac15ac5af0",
+        "android_client_info": {
+          "package_name": "com.example.dakauf_spec_generator"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD363vL3exl87auuZJ91SP3k7XeF8wygoQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
