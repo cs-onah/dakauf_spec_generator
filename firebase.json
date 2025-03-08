@@ -1,1 +1,55 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"dakauf-spec-generator","appId":"1:495018971089:android:5664eca6caf5ac15ac5af0","fileOutput":"android/app/google-services.json"}},"ios":{"default":{"projectId":"dakauf-spec-generator","appId":"1:495018971089:ios:7615e449fb2b58edac5af0","uploadDebugSymbols":false,"fileOutput":"ios/Runner/GoogleService-Info.plist"}},"macos":{"default":{"projectId":"dakauf-spec-generator","appId":"1:495018971089:ios:7615e449fb2b58edac5af0","uploadDebugSymbols":false,"fileOutput":"macos/Runner/GoogleService-Info.plist"}},"dart":{"lib/firebase_options.dart":{"projectId":"dakauf-spec-generator","configurations":{"android":"1:495018971089:android:5664eca6caf5ac15ac5af0","ios":"1:495018971089:ios:7615e449fb2b58edac5af0","macos":"1:495018971089:ios:7615e449fb2b58edac5af0","web":"1:495018971089:web:a4fedf63539e3e14ac5af0","windows":"1:495018971089:web:0f4604d4dc905a0dac5af0"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "dakauf-spec-generator",
+          "appId": "1:495018971089:android:5664eca6caf5ac15ac5af0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "ios": {
+        "default": {
+          "projectId": "dakauf-spec-generator",
+          "appId": "1:495018971089:ios:7615e449fb2b58edac5af0",
+          "uploadDebugSymbols": false,
+          "fileOutput": "ios/Runner/GoogleService-Info.plist"
+        }
+      },
+      "macos": {
+        "default": {
+          "projectId": "dakauf-spec-generator",
+          "appId": "1:495018971089:ios:7615e449fb2b58edac5af0",
+          "uploadDebugSymbols": false,
+          "fileOutput": "macos/Runner/GoogleService-Info.plist"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "dakauf-spec-generator",
+          "configurations": {
+            "android": "1:495018971089:android:5664eca6caf5ac15ac5af0",
+            "ios": "1:495018971089:ios:7615e449fb2b58edac5af0",
+            "macos": "1:495018971089:ios:7615e449fb2b58edac5af0",
+            "web": "1:495018971089:web:a4fedf63539e3e14ac5af0",
+            "windows": "1:495018971089:web:0f4604d4dc905a0dac5af0"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

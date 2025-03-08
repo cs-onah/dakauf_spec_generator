@@ -2,7 +2,7 @@
 
 A webapp for generating product specification for dakauf.eu
 
-👉See Live App: [LIVE](https://www.csonah.com)
+👉See Live App: [LIVE](https://dakauf-spec-generator.web.app)
 
 ### Screenshot
 
