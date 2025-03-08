@@ -2,8 +2,17 @@
 
 A webapp for generating product specification for dakauf.eu
 
+👉See Live App: [LIVE](https://www.csonah.com)
 
-The app converts user input to a specific json format. See generated output below
+### Screenshot
+
+<p align="center">
+<img height="567" src="https://github.com/cs-onah/dakauf_spec_generator/blob/main/docs/image.png" alt="Loading photo" loading="eager">
+</p>
+
+### About
+
+The app converts user input to a specific json format. See sample output below
 
 ## Sample Json:
 ```json
