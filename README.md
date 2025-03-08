@@ -2,15 +2,37 @@
 
 A webapp for generating product specification for dakauf.eu
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+The app converts user input to a specific json format. See generated output below
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Sample Json:
+```json
+[
+    {
+        "name": "Network",
+        "attributes": [
+            {
+                "name": "Technology",
+                "value": "GSM \\/ HSPA \\/ LTE \\/ 5G"
+            },
+            {
+                "name": "2G Bands",
+                "value": "GSM 850 \\/ 900 \\/ 1800 \\/ 1900"
+            }
+        ]
+    },
+    {
+        "name": "Body",
+        "attributes": [
+            {
+                "name": "Dimensions",
+                "value": "326.4 x 208.6 x 5.4 mm (12.85 x 8.21 x 0.21 in)"
+            },
+            {
+                "name": "Build",
+                "value": "Glass front, aluminum frame, aluminum back"
+            }
+        ]
+    }
+]
+```

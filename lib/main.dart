@@ -1,3 +1,4 @@
+import 'package:dakauf_spec_generator/ui/screens/home_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,12 +11,27 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
-        useMaterial3: true,
+      title: 'Dakauf Spec',
+      debugShowCheckedModeBanner: false,
+      theme: theme,
+      home: const HomePage(),
+    );
+  }
+
+  ThemeData get theme {
+    return ThemeData(
+      colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+      useMaterial3: true,
+      elevatedButtonTheme: ElevatedButtonThemeData(
+        style: ElevatedButton.styleFrom(
+          minimumSize: Size(0, 50),
+          padding: EdgeInsets.symmetric(horizontal: 10),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(10),
+          ),
+        ),
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      inputDecorationTheme: InputDecorationTheme(border: OutlineInputBorder()),
     );
   }
 }
